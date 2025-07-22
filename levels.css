@@ -1,0 +1,28 @@
+section {
+    display: grid;
+}
+
+#level-1 {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+}
+
+#level-2 {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;   
+}
+
+#level-3 {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+#level-4 {
+    grid-template: 1fr 1fr / repeat(4, 1fr);
+}
+
+#level-5 {
+    grid-template: repeat(3, 1fr) / repeat(5, 1fr);
+}
+
+#level-6 {
+    grid-template: repeat(3, 1fr) / repeat(auto-fill, 5rem);
+    
+}
